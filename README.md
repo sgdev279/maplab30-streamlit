@@ -6,7 +6,7 @@ visualises their density with ArcGIS Living Atlas cartography, and measures vill
 ## Run locally
 ```
 pip install -r requirements.txt
-streamlit run streamlit_app.py
+streamlit run Home.py
 ```
 
 ## Key capabilities
