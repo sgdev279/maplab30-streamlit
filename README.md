@@ -1,12 +1,15 @@
-# MapLab 30 — Cross-Domain GIS Micro-Apps (Streamlit)
+# Agricultural Service Accessibility Explorer (Streamlit)
 
-A tiny, open-source Streamlit app aligned with #30DayMapChallenge.
+An India-focused Streamlit experience for #30DayMapChallenge Day 01 (Points) that maps agricultural service points,
+visualises their density with ArcGIS Living Atlas cartography, and measures village coverage gaps.
 
-## Run
+## Run locally
 ```
 pip install -r requirements.txt
 streamlit run Home.py
 ```
 
-## Page
-- Day 03 — Agricultural Service Accessibility (OSM agri facilities + coverage)
+## Key capabilities
+- ArcGIS imagery and terrain basemaps with optional cropland overlay for contextual cartography.
+- Automated Overpass (OSM) queries for Krishi Vigyan Kendras, input retailers, soil labs, cold stores, dairy centres, and more.
+- Village coverage analytics with configurable buffer distance and export-ready GeoJSON/CSV downloads.
